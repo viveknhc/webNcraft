@@ -133,9 +133,9 @@
 
 .banner-form input[type=text],.banner-form input[type=email],.banner-form input[type=number] {
     border: 1px solid #D9DCE0;
-    border-radius: 3px;
-    padding: 7px 25px;
-    margin: 12px 0px;
+    border-radius: 8px;
+    padding: 11px 25px;
+    margin: 19px 0px;
     width: 100%;
 }
 
@@ -144,8 +144,8 @@
     color: var(--secondary-col);
     position: absolute;
     pointer-events: none;
-    left: 23px;
-    top: 18px;
+    left: 27px;
+    top: 33px;
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
@@ -167,11 +167,10 @@
 }
 
 .banner-form .consent-p {
-    font-family: 'Poppins', sans-serif;
+    padding: 20px 0px;
     color: var(--black-col);
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -188,38 +187,35 @@
     padding: 10px 10px !important;
 }
 
-/* Style for the unchecked checkbox */
+
 .consent-checkbox {
     appearance: none;
     width: 3px;
     height: 3px;
-    border: 2px solid #333;
+    border: 2px solid #8d8d8d;
     border-radius: 3px;
     background-color: white;
     cursor: pointer;
-    position: relative; /* Added */
+    position: relative; 
 }
 
-/* Style for the checked checkbox */
 .consent-checkbox:checked {
-    background-color: #4CAF50;
-    border-color: #4CAF50;
+    background-color: var(--real-pink);
+    border-color: var(--real-pink);
 }
 
-/* Style for the checkbox label */
+
 .consent-label {
     display: flex;
     align-items: center;
 }
 
-/* Style for the checkbox text */
 .checkbox-text {
     margin-left: 10px;
 }
 
-/* Style for the checkmark (tick) inside the checked checkbox */
 .consent-checkbox:checked::after {
-    content: '\2713'; /* Unicode character for a checkmark */
+    content: '\2713'; 
     font-size: 14px;
     position: absolute;
     top: 50%;
@@ -242,7 +238,7 @@
 
 }
 
-/* partner */
+
 
 .partner .card {
     border: none;
@@ -397,6 +393,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.values .quote-sm{
+
+    display: none;
 }
 
 

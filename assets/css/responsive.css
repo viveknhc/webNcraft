@@ -18,6 +18,7 @@
 
     .heading {
         font-size: 27px;
+        text-align: center;
     }
 
     .sub-heading {
@@ -91,6 +92,39 @@
 
     .copy-right p {
         font-size: 16px;
+    }
+
+
+    .quote img {
+        display: none;
+    }
+
+    .values .quote-sm {
+        display: block;
+        font-size: 20px;
+        color: var(--black-col);
+        font-style: italic;
+        text-align: center;
+    }
+
+
+    .values .quote {
+        display: none;
+    }
+
+    .testimonial-box {
+        height: 100vh;
+    }
+
+    .banner-form input[type=text],
+    .banner-form input[type=email],
+    .banner-form input[type=number] {
+        margin: 6px 0px;
+    }
+
+
+    .banner-form label {
+        top: 15px;
     }
 
 }
