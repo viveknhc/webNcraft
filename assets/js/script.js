@@ -2,7 +2,7 @@ $(document).ready(function () {
     var owl = $("#testimonial-carousel");
     owl.owlCarousel({
         loop: true,
-        autoplay:true,
+        // autoplay:true,
         margin: 10,
         nav: false, 
         responsive: {

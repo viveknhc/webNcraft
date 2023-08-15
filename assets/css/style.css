@@ -366,16 +366,17 @@
     padding: 0;
 }
 
-.values ul li {
+.values ul .active {
     list-style: none;
     border-bottom: 1px solid #FCDE52;
     padding: 10px 0;
 
 }
 
-.values ul li.active {
+.values ul li {
     list-style: none;
-    border-bottom: 1px solid rgb(73, 52, 52);
+    border-bottom: 1px solid rgb(185, 183, 183);
+    padding: 10px 0;
 
 }
 
