@@ -1,0 +1,74 @@
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {
+    .banner img {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        height: 100%;
+    }
+
+    .banner-form {
+        padding: 30px;
+    }
+
+    .heading {
+        font-size: 27px;
+    }
+
+    .sub-heading {
+        font-size: 18px;
+    }
+
+    .section {
+        padding: 50px 0;
+    }
+
+    .partner .partner-context {
+        padding: 30px 0px !important;
+    }
+
+    .partner .card-body .card-title {
+        padding: 0px 0 15px 0px;
+    }
+
+    .machine {
+        display: none;
+    }
+
+    .retail-content-box {
+        padding: 49px 0px;
+        text-align: center;
+    }
+
+    .testimonial-box {
+        text-align: center;
+    }
+
+    .popees-navbar {
+        background-color: #fff;
+    }
+
+    .partner .card {
+        border-bottom: 1px solid #c1c1c1;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+        border-radius: 0;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .banner img {
+        display: none;
+    }
+
+    .banner-form {
+        padding: 30px;
+    }
+}

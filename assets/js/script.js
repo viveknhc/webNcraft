@@ -1,11 +1,10 @@
 $(document).ready(function () {
-    // Initialize the owlCarousel with custom controls
     var owl = $("#testimonial-carousel");
     owl.owlCarousel({
         loop: true,
-        // autoplay:true,
+        autoplay:true,
         margin: 10,
-        nav: false, // Turn off default navigation
+        nav: false, 
         responsive: {
             0: {
                 items: 1,
@@ -21,7 +20,6 @@ $(document).ready(function () {
         }
     });
 
-    // Custom controls event handlers
     $('.custom-next').click(function () {
         owl.trigger('next.owl.carousel');
     });
@@ -29,3 +27,9 @@ $(document).ready(function () {
         owl.trigger('prev.owl.carousel');
     });
 });
+
+
+
+// aos
+
+AOS.init();
