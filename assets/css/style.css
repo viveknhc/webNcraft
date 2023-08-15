@@ -1,0 +1,266 @@
+/* nunito */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --primary-col: #15263B;
+    --secondary-col: #646464;
+    --pink-col: #FFEAEE;
+    --real-pink: #E62658;
+    --white-col: #fff;
+    --black-col: #101F31;
+    --button-primary: #E62658;
+}
+
+/* headings */
+
+.heading {
+    color: var(--black-col);
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 800;
+
+}
+
+.sub-paragraph {
+    color: var(--black-col);
+    font-size: 18px;
+}
+
+/* button */
+
+
+.primary-button {
+    padding: 10px 22px;
+    color: var(--white-col);
+    background-color: var(--button-primary);
+    border: 1px solid var(--button-primary);
+    border-radius: 28px;
+}
+
+/* padding */
+
+
+.section {
+    padding: 100px 0px;
+}
+
+/* relative */
+
+.relative-box {
+    position: relative;
+}
+
+
+/* navbar */
+
+.popees-navbar {
+    background-color: var(--pink-col);
+    /* padding: 22px 0px; */
+}
+
+.popees-navbar .nav-item .nav-link {
+    font-size: 18px;
+    color: var(--primary-col);
+}
+
+.popees-navbar .nav-item .btn {
+    font-size: 18px;
+    border: 1px solid var(--real-pink);
+    border-radius: 25px;
+    background-color: var(--pink-col);
+    color: var(--real-pink);
+}
+
+
+.popees-navbar .navbar-brand {
+    max-width: 10px;
+}
+
+
+/* header */
+
+.banner {
+    height: 100vh;
+    background-image: url('../images/banner/banner.png');
+    background-color: var(--pink-col);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner .form-col {
+    height: 100vh;
+}
+
+.banner-form {
+    background: var(--white-col);
+    border-radius: 10px;
+    box-shadow: 0px 10px 28px #FFD8E1BC;
+    border-radius: 12px;
+    padding: 50px;
+}
+
+.banner-form h3 {
+    font-size: 34px;
+    color: var(--black-col);
+    font-weight: 600;
+}
+
+.banner-form p {
+    color: var(--secondary-col);
+    font-size: 18px;
+}
+
+.banner-form form {
+    margin: 32px 0px 0px 0px;
+}
+
+.banner-form input {
+    border: 1px solid #D9DCE0;
+    border-radius: 3px;
+    padding: 7px 25px;
+    margin: 12px 0px;
+}
+
+.banner-form .consent-p {
+    font-family: 'Poppins', sans-serif;
+    color: var(--black-col);
+    font-size: 14px;
+}
+
+
+.banner-form .consent-p .checkbox:checked {
+    background-color: var(--button-primary);
+}
+
+.banner-form form button {
+    background-color: var(--button-primary);
+    width: 100%;
+    color: var(--white-col);
+    border: 1px solid #E62658;
+    border-radius: 28px;
+
+    padding: 10px 0px;
+    font-size: 22px;
+
+}
+
+/* partner */
+
+.partner .card {
+    border: none;
+}
+
+.partner .icon-1 {
+    padding: 10px;
+    border-radius: 19px;
+    background: #D4ECFF 0% 0% no-repeat padding-box;
+}
+
+
+.partner .icon-2 {
+    padding: 10px;
+    border-radius: 19px;
+    background: #FFE2E5 0% 0% no-repeat padding-box;
+}
+
+
+.partner .icon-3 {
+    padding: 10px;
+    border-radius: 19px;
+    background: #FFEFCC 0% 0% no-repeat padding-box;
+}
+
+.partner .icon-4 {
+    padding: 10px;
+    border-radius: 19px;
+    background: #F0E5FF 0% 0% no-repeat padding-box;
+
+}
+
+
+.partner img {
+    max-width: 55px;
+}
+
+.partner .partner-context {
+    padding: 71px 0px !important;
+
+}
+
+.partner .card-body .card-title {
+    font-size: 24px;
+    color: var(--black-col);
+    font-weight: 600;
+    padding: 23px 0 15px 0px;
+}
+
+.machine {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* testimonial */
+
+.testimonial {
+    position: absolute;
+    right: 0;
+    max-width: 1600px;
+}
+
+.testimonial-box {
+    background-color: #EAF8FF;
+    height: 60vh;
+    width: 100%;
+}
+
+
+.testimonial button {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #9BCAE2;
+    border-radius: 100%;
+    padding: 10px 16px 10px 16px;
+
+}
+
+.testimonial button i{
+    color: #9BCAE2;
+}
+
+
+.testimonial .content-box{
+    background-color: var(--white-col);
+    padding: 37px;
+    border-radius: 12px;
+}
+
+
+.testimonial .content-box img{
+    max-width: 37px;
+}
+
+
+.testimonial .content-box .person{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid red;
+    padding: 32px 0px;
+}
+
+
+.testimonial .content-box .person h5{
+    font-weight: 600
+}
+
+
