@@ -383,6 +383,12 @@
 
 }
 
+.values h5{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+}
+
 .values .quote {
     font-size: 20px;
     color: var(--black-col);
@@ -413,6 +419,10 @@
     transform: scale(0.9);
 }
 
+
+.values .content-box{
+    padding: 85px 0;
+}
 /* footer */
 
 footer {
@@ -449,4 +459,8 @@ footer .links a {
 
 footer hr {
     color: #EAF8FF;
+}
+
+.social-icon-sm{
+    display: none;
 }

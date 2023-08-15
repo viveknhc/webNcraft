@@ -60,6 +60,39 @@
         border-top: 0;
         border-radius: 0;
     }
+
+    .value-btn {
+        display: none !important;
+    }
+
+
+    footer .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .social-icon {
+        display: none;
+    }
+
+    .social-icon-sm {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 39px 0;
+    }
+
+
+    .copy-right {
+        flex-direction: column;
+        padding: 0px 0px 73px 0px;
+    }
+
+    .copy-right p {
+        font-size: 16px;
+    }
+
 }
 
 
